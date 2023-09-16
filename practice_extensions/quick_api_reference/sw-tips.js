@@ -1,5 +1,4 @@
 console.log("sw-tips.js");
-console.log(Math.floor(Math.random()*700));
 const updateTip=async()=>{
     //fetchで↓APIを取得
     const response=await fetch('https://extension-tips.glitch.me/tips.json');
